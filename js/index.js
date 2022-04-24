@@ -6,7 +6,9 @@ const links = [
 ]
 
 html = "";
+function TOC() {
 for(i = 0; i = links.length; i++){
 	html += "<li><a href=''></a></li>";
 }
 document.getElementById('TOC').innerHTML(html);
+};
