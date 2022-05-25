@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>To Do</title>
+</head>
+<body>
+  <div id="title"><h1>ToDos</h1></div>
+  <ul id="myUL">
+    <li class="checked">Hit the gym</li>
+    <li>Pay bills</li>
+    <li>Meet George</li>
+    <li>Buy eggs</li>
+    <li>Read a book</li>
+    <li>Organize office</li>
+  </ul>
+  <div id="myDIV" class="blackBar">
+    <input type="text" id="myInput" placeholder="Task">
+    <span onclick="newElement()" class="addBtn">Add</span>
+    <div class="select">
+      <select name="todos" class="filter-todos">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="uncompleted">Uncompleted</option>
+      </select>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
