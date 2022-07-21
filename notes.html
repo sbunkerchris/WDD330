@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chris Bunker - WDD330 Notes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body class="light-grey">
+<div class="content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="container center padding-32"> 
+    <h1><b>WDD 330</b></h1>
+    <p>Reports</p>
+  </header>
+  
+  <!-- Grid -->
+  <div class="row">
+  
+  <div class="col s12">
+  
+    <div class="card-4 margin white">
+      <div class="container">
+        <h3><b>Week 01</b></h3>
+      </div>
+  
+      <div class="container">
+        <h4>Master Mobile UX</h4>
+        <p>Develop up!</p>
+        <p>2-3 devices per household (outside a computer)</p>
+        <p>"marshmallow into a piggy bank"</p>
+      </div>
+    </div>
+    <hr>
+  
+    <div class="card-4 margin white">
+      <div class="container">
+        <h3><b>Week 02</b></h3>
+      </div>
+  
+      <div class="container">
+        <p>Basics of functions, statements, expressions. basic blocks of any standard code. expressions end 
+          in semi colons (;). basically similar to the consruction of any writing containing words, sentences 
+          pharagraphs, ect.. All these going into the overall 'story' 
+        </p>
+        <p>loops - a way of separating an operation especially if it needs to be perfomed more than once.</p>
+        <p>how you format a document is important for seeing where the flow of that document is and the components
+          of a specific operation (usefull for seeing what are implements of a loop and what the loop is).
+        </p>
+        <p>
+          Functions - scopes and bidings - see below code<br>
+          if(true){
+            let y = 20;
+            var z = 30;
+          }<br>
+          Y and Z are only visible (and accessable) within the if expression. AKA Y and Z are only availible within
+          that 'scope.'
+        </p>
+        <p>
+          Arrow Fucntions => <br>
+          example: <br>
+          <img src="./images/arrowFunctionEx.PNG"><br>
+          this is another notation for functions with only one upside (says they will go over it later). Probably 
+          won't be using too many of these (at least as far as i can think)
+        </p>
+        <p>recursion - AKA if/else statements</p>
+        <p>Objects and Arrays - lists of data. each form has its advantages.<br>
+          Arrays are strings of data. 
+        </p>
+      </div>
+    </div>
+    <hr>
+  
+    <div class="card-4 margin white">
+        <div class="container">
+          <h3><b>Week 03</b></h3>
+        </div>
+    
+        <div class="container">
+            <p>Again Not many new things from our readings, </p>
+            <p>DOM - Document Object model. javascript - "I have ultimate POWER!"</p>
+            <p>Events - the things that happen to HTML aka the react on HTML</p>
+            <p>Objects - Things to be acted upon or used.</p>
+        </div>
+      </div>
+      <hr>
+    </div>
+    </div>
+    <div class="card-4 margin white">
+        <div class="container">
+          <h3><b>Week 04</b></h3>
+        </div>
+    
+        <div class="container">
+            <h4>Forms</h4>
+            <p>default text in forms - use input.addEventListner to allow default text to apear but not start as part of the input. (this is another way to do a placeholder of html forms)</p>
+            <h4>OOP</h4>
+            <p>Constructiors - functions that return instances of the object</p>
+            <p>using a prototype you can add new properties to a constructor (inheritance, polymorphisim)</p>
+            <h5>example</h5>
+            <p>i make an object (point named p) this object has a function (show()) that shows the point. Do i really need all points to have their OWN show()? instead i can use point.prototype.show = function() this allows this to be bart of the objecst but not have their own doing so makes show() a part of the prototype for point. if you need to you can override this in that object.</p>
+            <p>public vs private - editable outside of scope or not</p>
+            <p>mixins - ways to add parts of one object to another object without inheritance.</p>
+            <p>Chaining - object.functionName().anotherfunctionName()</p>
+            <h4>HTML 5 API - Modules </h4>
+            <p>aka fucntions that can be used on other pages or in other files. keeps code organized in separate files.</p>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <div class="card-4 margin white">
+      <div class="container">
+        <h3><b>Week 05</b></h3>
+      </div>
+  
+      <div class="container">
+        <p>
+          <h4>Errors, Exeptions, Warnings</h4>
+                <ul>
+                    <li>System Error - Problem with system or other attached devices</li>
+                    <li>programmer error - program is faulty</li>
+                    <li>user error - user input data and the program cant handle it</li>
+                    <li>>Exception - the message that is "thrown" before the program terminate</li>
+                </ul>
+            </p>
+            <h4>Strict mode</h4>
+            <p>
+                <ul>
+        <li>a mode of javascript (ECMAScript 5) that produces more warnings and exceptions and prohibits use of some deprecated features.</li>
+        <li></li>using "strict" in the beginning of a file will enforce this mode.</li>
+        </ul>
+        </p>
+        <h4>Linting Tools</h4>
+        <p>
+        <ul>
+        <li>tools that can assist (and test) code quality</li>
+        <li>highlights sloppy code</li>
+        <li>identifies syntax errors</li>
+        <li>style conventions are not followed</li>
+        </ul>
+        </p>
+        <h4>Feature Detection</h4>
+        <p>
+            <ul>
+        <li>API changes often and also is dependant on browser, updates, users...and many other factors.</li>
+        <li>Feature Detection - the way of identifying the users browsers applicable features.</li>
+        <li>uses an if statement to run the code (or method) if that code exists. this can prevent errors.</li>
+        </ul>
+        </p>
+        <h4>Debugging</h4>
+        <p>
+            <ul>
+        <li>Debugging - process of finding bugs and where they are in the code.</li>
+        <li>breakpoints - areas in the code that stop the progress so view the value of variables at that point in the program.</li>
+        <li>alert(value) - function/method that displays a message on screen (with an ok button) will also display the value in the dialogue box of the passed value.</li>
+        <li>most modern browsers have these tools built in</li>
+        </ul>
+        </p>
+        <h4>Error Objects</h4>
+        <p>
+            <ul>
+        <li>Error(string) - (constructor) if a string is put in it</li>
+        <li>RangeError - when a number is outside allowable range of values</li>
+        <li>ReferenceError - reference is made to something that doesnt exist</li>
+        <li>SyntaxError - For sytax errors...duh</li>
+        <li>TypeError - value type does not match</li>
+        <li>>URIError - Problem encoding or decoding URI</li>
+        <li>URI - string of characters identifying a resource (most common is a URL)</li>
+        </ul>
+        </p>
+        <h4>Exception Handling</h4>
+        <p>
+        <ul>
+        <li>catch, try </li>
+        <li>from a personal view this is one of the factors that makes usability for both user and programmer. </li>
+        </ul>
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+    
+    <div class="card-4 margin white">
+        <div class="container">
+          <h3><b>Week Template</b></h3>
+        </div>
+    
+        <div class="container">
+            <p>content</p>
+        </div>
+      </div>
+      <hr>
+    </div>
+  
+  
+  <!-- END GRID -->
+  </div><br>
+  
+  <!-- END content -->
+  </div>
+  
+  <!-- Footer -->
+<footer class="container dark-grey padding-32 margin-top">
+    <a href="./index.html" class="button black padding-large margin-bottom">Back</a>
+  <p>&copy; <a href="" target="_blank">Chris Bunker</a></p>
+</footer>
+
+</body>
+</html>
