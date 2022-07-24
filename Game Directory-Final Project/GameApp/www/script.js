@@ -1,4 +1,4 @@
-const API = "https://sbunkerchris.github.io/GameApp/games";
+const API = "https://gameapp.sbunker.workers.dev/";
 fetch(API)
   .then((response) => {
     if (response.ok) {
