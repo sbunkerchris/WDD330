@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/games";
+const API = "https://sbunkerchris.github.io/GameApp/";
 fetch(API)
   .then((response) => {
     if (response.ok) {
